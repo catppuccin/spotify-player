@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/spotify-player/main/assets/cat-spotify-player.png"/>
+  <img src="assets/cat-spotify-player.png"/>
 </p>
 
 
 ## Usage
 
-1. Clone this repository locally.
-2. Copy the `theme.toml` from `src` to `$HOME/.config/spotify-player/`.
+1. Clone this repository locally
+2. Copy the `theme.toml` from `src` to `$HOME/.config/spotify-player/`
 3. Set theme option in `$HOME/.config/spotify-player/app.toml`:
     - 🌻 Catppuccin-latte
     - 🪴 Catppuccin-frappe
