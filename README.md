@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/cat-spotify-player.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/spotify-player/main/assets/cat-spotify-player.png"/>
 </p>
 
 ## Previews
