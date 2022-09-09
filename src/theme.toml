@@ -24,6 +24,17 @@ bright_yellow = "#F9E2AF"
 selection_background = "#313244"
 selection_foreground = "#CDD6F4"
 
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "SelectionBackground", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+
+
 [[themes]]
 name = "Catppuccin-latte"
 [themes.palette]
@@ -47,6 +58,17 @@ bright_white = "#4C4F69"
 bright_yellow = "#DF8E1D"
 selection_background = "#CCD0DA"
 selection_foreground = "#4C4F69"
+
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "SelectionBackground", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+
 
 [[themes]]
 name = "Catppuccin-frappe"
@@ -72,6 +94,17 @@ bright_yellow = "#E5C890"
 selection_background = "#414559"
 selection_foreground = "#C6D0F5"
 
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "SelectionBackground", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+
+
 [[themes]]
 name = "Catppuccin-macchiato"
 [themes.palette]
@@ -95,3 +128,14 @@ bright_white = "#CAD3F5"
 bright_yellow = "#EED49F"
 selection_background = "#363A4F"
 selection_foreground = "#CAD3F5"
+
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "SelectionBackground", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+
