@@ -35,17 +35,17 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Copy the `theme.toml` from `src` to `$HOME/.config/spotify-player/`
-3. Set theme option in `$HOME/.config/spotify-player/app.toml`:
+1. `curl https://github.com/catppuccin/spotify-player/raw/main/src/theme.toml > $HOME/.config/spotify-player/theme.toml`
+2. Set theme option in `$HOME/.config/spotify-player/app.toml`:
     - 🌻 Catppuccin-latte
     - 🪴 Catppuccin-frappe
     - 🌺 Catppuccin-macchiato
     - 🌿 Catppuccin-mocha
-4. For example to set Catppuccin-macchiato your `app.toml` should have the following line:
+3. For example to set Catppuccin-macchiato your `app.toml` should have the following line:
     ```
     theme = "Catppuccin-macchiato"
     ```
+4. Restart `spotify_player`
 
 ## 💝 Thanks to
 
