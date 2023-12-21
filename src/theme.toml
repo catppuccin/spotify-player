@@ -23,7 +23,7 @@ bright_white = "#CDD6F4"
 bright_yellow = "#F9E2AF"
 
 [themes.component_style]
-selection = { bg = { Rgb = { r = 49, g = 50, b = 68 } }, modifiers = ["Bold"] }
+selection = { bg = "#313244", modifiers = ["Bold"] }
 
 [[themes]]
 name = "Catppuccin-latte"
@@ -47,7 +47,7 @@ bright_red = "#D20F39"
 bright_white = "#4C4F69"
 bright_yellow = "#DF8E1D"
 [themes.component_style]
-selection = { bg = { Rgb = { r = 204, g = 208, b = 218 } }, modifiers = ["Bold"] }
+selection = { bg = "#CCD0DA", modifiers = ["Bold"] }
 
 [[themes]]
 name = "Catppuccin-frappe"
@@ -71,7 +71,7 @@ bright_red = "#E78284"
 bright_white = "#C6D0F5"
 bright_yellow = "#E5C890"
 [themes.component_style]
-selection = { bg = { Rgb = { r = 65, g = 69, b = 89 } }, modifiers = ["Bold"] }
+selection = { bg = "#414559", modifiers = ["Bold"] }
 
 [[themes]]
 name = "Catppuccin-macchiato"
@@ -94,7 +94,5 @@ bright_magenta = "#C6A0F6"
 bright_red = "#ED8796"
 bright_white = "#CAD3F5"
 bright_yellow = "#EED49F"
-selection_background = "#363A4F"
-selection_foreground = "#CAD3F5"
 [themes.component_style]
-selection = { bg = { Rgb = { r = 54, g = 58, b = 79 } }, modifiers = ["Bold"] }
+selection = { bg = "#363A4F", modifiers = ["Bold"] }
