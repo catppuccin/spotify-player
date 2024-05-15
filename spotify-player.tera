@@ -1,0 +1,34 @@
+---
+whiskers:
+  version: 2.1.0
+---
+
+{%- for _, flavor in flavors -%}
+{%- set palette = flavor.colors -%}
+
+[[themes]]
+name = "Catppuccin-{{ flavor.identifier }}"
+[themes.palette]
+background = "#{{ palette.base.hex }}"
+foreground = "#{{ palette.text.hex }}"
+black = "#{{ palette.base.hex }}"
+blue = "#{{ palette.blue.hex }}"
+cyan = "#{{ palette.sky.hex }}"
+green = "#{{ palette.green.hex }}"
+magenta = "#{{ palette.mauve.hex }}"
+red = "#{{ palette.red.hex }}"
+white = "#{{ palette.text.hex }}"
+yellow = "#{{ palette.yellow.hex }}"
+bright_black = "#{{ palette.base.hex }}"
+bright_blue = "#{{ palette.blue.hex }}"
+bright_cyan = "#{{ palette.sky.hex }}"
+bright_green = "#{{ palette.green.hex }}"
+bright_magenta = "#{{ palette.mauve.hex }}"
+bright_red = "#{{ palette.red.hex }}"
+bright_white = "#{{ palette.text.hex }}"
+bright_yellow = "#{{ palette.yellow.hex }}"
+
+[themes.component_style]
+selection = { bg = "#{{ palette.surface0.hex }}", modifiers = ["Bold"] }
+
+{% endfor -%}
