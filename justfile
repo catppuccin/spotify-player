@@ -2,4 +2,4 @@ _default:
   @just --list
 
 build:
-  whiskers spotify-player.tera > theme.toml
+  whiskers spotify-player.tera
