@@ -1,6 +1,7 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
+  filename: "theme.toml"
 ---
 
 {%- for _, flavor in flavors -%}
