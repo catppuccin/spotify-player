@@ -31,5 +31,17 @@ bright_yellow = "#{{ palette.yellow.hex }}"
 
 [themes.component_style]
 selection = { bg = "#{{ palette.surface0.hex }}", modifiers = ["Bold"] }
+block_title = { fg = "Magenta"  }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "#{{ palette.surface0.hex }}", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+border = {}
+playback_status = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playlist_desc = { fg = "#{{ palette.subtext0.hex }}" }
 
 {% endfor -%}
