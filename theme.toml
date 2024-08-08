@@ -22,7 +22,7 @@ bright_yellow = "#df8e1d"
 
 [themes.component_style]
 selection = { bg = "#ccd0da", modifiers = ["Bold"] }
-block_title = { fg = "Magenta"  }
+block_title = { fg = "Magenta" }
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
 playback_metadata = { fg = "Blue" }
@@ -59,7 +59,7 @@ bright_yellow = "#e5c890"
 
 [themes.component_style]
 selection = { bg = "#414559", modifiers = ["Bold"] }
-block_title = { fg = "Magenta"  }
+block_title = { fg = "Magenta" }
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
 playback_metadata = { fg = "Blue" }
@@ -96,7 +96,7 @@ bright_yellow = "#eed49f"
 
 [themes.component_style]
 selection = { bg = "#363a4f", modifiers = ["Bold"] }
-block_title = { fg = "Magenta"  }
+block_title = { fg = "Magenta" }
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
 playback_metadata = { fg = "Blue" }
@@ -133,7 +133,7 @@ bright_yellow = "#f9e2af"
 
 [themes.component_style]
 selection = { bg = "#313244", modifiers = ["Bold"] }
-block_title = { fg = "Magenta"  }
+block_title = { fg = "Magenta" }
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
 playback_metadata = { fg = "Blue" }

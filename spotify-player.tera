@@ -31,7 +31,7 @@ bright_yellow = "#{{ palette.yellow.hex }}"
 
 [themes.component_style]
 selection = { bg = "#{{ palette.surface0.hex }}", modifiers = ["Bold"] }
-block_title = { fg = "Magenta"  }
+block_title = { fg = "Magenta" }
 playback_track = { fg = "Cyan", modifiers = ["Bold"] }
 playback_album = { fg = "Yellow" }
 playback_metadata = { fg = "Blue" }
